@@ -1,0 +1,251 @@
+main {
+  display: flex;
+  flex-direction: column;
+  height: 90%;
+
+  .hero_section {
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+    width: 70vw;
+    justify-content: center;
+    margin: 0 auto;
+    // border: solid red 1px;
+
+    .title_book {
+      display: flex;
+      justify-content: flex-end;
+      // border: 1px solid red;
+      width: 90%;
+      .h3_pdf {
+        // position: absolute;
+        width: 250px;
+        right: 0;
+        top: -5%;
+        font-family: "Moderat";
+        font-weight: lighter;
+
+        .span_pdf {
+          font-size: 20px;
+          font-family: "Moderat";
+          font-weight: normal;
+        }
+      }
+    }
+
+    h1 {
+      font-size: 50px;
+      width: 650px;
+      font-family: "Tiempos";
+
+      span {
+        position: relative;
+
+        &::before {
+          content: "";
+          height: 60%;
+          position: absolute;
+          bottom: 10%;
+          left: 0;
+          right: 0;
+          background: #feca57;
+          z-index: -1;
+        }
+      }
+    }
+    .logo_header {
+      font-size: 35px;
+      font-family: "Moderat";
+      font-weight: normal;
+      width: 400px;
+    }
+    .description_1 {
+      width: 350px;
+      font-size: 20px;
+      font-family: "Moderat";
+      font-weight: lighter;
+      margin: 20px 0 20px 0;
+    }
+    ul {
+      font-size: 18px;
+      font-family: "Moderat";
+      font-weight: lighter;
+      margin: 10px 0 10px 0;
+    }
+    form {
+      font-family: "Moderat";
+      font-weight: lighter;
+
+      input {
+        height: 40px;
+        -webkit-appearance: none;
+        border: 1px solid black;
+        margin: 20px 10px 10px 10px;
+
+        &[type="submit"] {
+          background-color: #feca57;
+          width: 100px;
+          padding: 10px;
+          border: none;
+          cursor: pointer;
+        }
+      }
+    }
+
+    .book {
+      position: absolute;
+      height: 650px;
+      width: auto;
+      right: 15%;
+      bottom: 35px;
+    }
+
+    .span_info {
+      width: 500px;
+      font-size: 14px;
+      font-family: "Moderat";
+      font-weight: lighter;
+      color: rgb(148, 148, 148);
+    }
+    .arrow {
+      border: 1px solid red;
+      height: 40px;
+      width: 80px;
+    }
+  }
+
+  .map_section {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    height: 120%;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 130px;
+
+    .title_map {
+      text-align: center;
+      font-size: 40px;
+      font-family: "Moderat";
+      font-weight: normal;
+      width: 400px;
+      margin: 0 0 120px 0;
+
+      span {
+        position: relative;
+
+        &::before {
+          content: "";
+          height: 35%;
+          position: absolute;
+          bottom: 10%;
+          left: 0;
+          right: 0;
+          background: #feca57;
+          z-index: -1;
+        }
+      }
+    }
+
+    .jura {
+      .jura_img {
+        position: absolute;
+        width: 300px;
+        height: auto;
+        top:  20%;
+        right: 10%;
+      }
+      .jura_title {
+        position: absolute;
+        top:  45%;
+        right: 13%;
+        text-align: center;
+        font-family: "Tiempos";
+        font-size: 26px;
+        width: 200px;
+
+        span {
+          position: relative;
+
+          &::before {
+            content: "";
+            height: 50%;
+            position: absolute;
+            bottom: 10%;
+            left: 0;
+            right: 0;
+            background: #feca57;
+            z-index: -1;
+          }
+        }        
+      }
+    }
+    .basque {
+      .basque_img {
+        position: absolute;
+        width: 250px;
+        height: auto;
+        top: 85%;
+        left: 15%;
+      }
+      .basque_title {
+        position: absolute;
+        top: 123%;
+        left: 15%;
+        text-align: center;
+        font-family: "Tiempos";
+        font-size: 26px;
+        width: 250px;
+
+        span {
+          position: relative;
+
+          &::before {
+            content: "";
+            height: 50%;
+            // width: 30px;
+            position: absolute;
+            bottom: 10%;
+            left: 0;
+            right: 0;
+            background: #feca57;
+            z-index: -1;
+          }
+        }
+      }
+    }
+    .himalaya {
+      .himalaya_img {
+        position: absolute;
+        width: 300px;
+        height: auto;
+        top: 100%;
+        right: 13%;
+      }
+      .himalaya_title {
+        position: absolute;
+        top: 125%;
+        right: 14%;
+        text-align: center;
+        font-family: "Tiempos";
+        font-size: 26px;
+        width: 250px;
+
+        span {
+          position: relative;
+
+          &::before {
+            content: "";
+            height: 50%;
+            position: absolute;
+            bottom: 10%;
+            left: 0;
+            right: 0;
+            background: #feca57;
+            z-index: -1;
+          }
+        }
+      }
+    }
+  }
+}

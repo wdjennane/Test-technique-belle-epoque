@@ -1,0 +1,14 @@
+@import './helpers/reset';
+@import './layout/header';
+@import './layout/footer';
+@import './pages/home';
+@import './helpers/typography';
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+}
